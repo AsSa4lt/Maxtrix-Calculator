@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		637E7DE5293F7E7F00D3DDAD /* Maxtrix_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7DE4293F7E7F00D3DDAD /* Maxtrix_CalculatorApp.swift */; };
+		637E7DE7293F7E7F00D3DDAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7DE6293F7E7F00D3DDAD /* ContentView.swift */; };
+		637E7DE9293F7E8000D3DDAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637E7DE8293F7E8000D3DDAD /* Assets.xcassets */; };
+		637E7DEC293F7E8000D3DDAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637E7DEB293F7E8000D3DDAD /* Preview Assets.xcassets */; };
+		637E7DEE293F7E8000D3DDAD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7DED293F7E8000D3DDAD /* Persistence.swift */; };
+		637E7DF1293F7E8000D3DDAD /* Maxtrix_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 637E7DEF293F7E8000D3DDAD /* Maxtrix_Calculator.xcdatamodeld */; };
+		637E7DFB293F7E8100D3DDAD /* Maxtrix_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7DFA293F7E8100D3DDAD /* Maxtrix_CalculatorTests.swift */; };
+		637E7E05293F7E8100D3DDAD /* Maxtrix_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E04293F7E8100D3DDAD /* Maxtrix_CalculatorUITests.swift */; };
+		637E7E07293F7E8100D3DDAD /* Maxtrix_CalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E06293F7E8100D3DDAD /* Maxtrix_CalculatorUITestsLaunchTests.swift */; };
+		637E7E14293F80E100D3DDAD /* ArrayExtersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E13293F80E000D3DDAD /* ArrayExtersion.swift */; };
+		637E7E16293F811200D3DDAD /* DesignData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E15293F811200D3DDAD /* DesignData.swift */; };
+		637E7E18293F84DC00D3DDAD /* CommonMatrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E17293F84DC00D3DDAD /* CommonMatrices.swift */; };
+		637E7E1A293F869B00D3DDAD /* CommonMatricesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E19293F869B00D3DDAD /* CommonMatricesData.swift */; };
+		637E7E1C293F8B5700D3DDAD /* SliderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E1B293F8B5700D3DDAD /* SliderExtension.swift */; };
+		637E7E1E293F9A2700D3DDAD /* Transpose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E1D293F9A2700D3DDAD /* Transpose.swift */; };
+		637E7E20293FA2F300D3DDAD /* AdditionAndSubstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E1F293FA2F300D3DDAD /* AdditionAndSubstraction.swift */; };
+		637E7E22293FAD2700D3DDAD /* AdditionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E21293FAD2700D3DDAD /* AdditionSheet.swift */; };
+		637E7E24293FBC2600D3DDAD /* numberFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E23293FBC2600D3DDAD /* numberFormatting.swift */; };
+		637E7E26293FBC6300D3DDAD /* SubstractionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E25293FBC6300D3DDAD /* SubstractionSheet.swift */; };
+		637E7E28293FBF2A00D3DDAD /* MultiplySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E27293FBF2A00D3DDAD /* MultiplySheet.swift */; };
+		637E7E2A293FBF7000D3DDAD /* MultiplyMatrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E29293FBF7000D3DDAD /* MultiplyMatrices.swift */; };
+		637E7E2C2940BC7800D3DDAD /* InverzeMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E2B2940BC7800D3DDAD /* InverzeMatrix.swift */; };
+		637E7E2E2940D06B00D3DDAD /* InverzeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E2D2940D06B00D3DDAD /* InverzeSheet.swift */; };
+		637E7E332940F71C00D3DDAD /* FormatToFractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E322940F71C00D3DDAD /* FormatToFractions.swift */; };
+		637E7E352941035600D3DDAD /* SorrySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E342941035600D3DDAD /* SorrySheet.swift */; };
+		637E7E372941094100D3DDAD /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E362941094100D3DDAD /* NumberFormatter.swift */; };
+		637E7E3929411BD300D3DDAD /* ResultToMatrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E3829411BD300D3DDAD /* ResultToMatrices.swift */; };
+		637E7E3B29411ED400D3DDAD /* Commutator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E3A29411ED400D3DDAD /* Commutator.swift */; };
+		637E7E3D294121F500D3DDAD /* CommutatorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E3C294121F500D3DDAD /* CommutatorSheet.swift */; };
+		637E7E432941F56800D3DDAD /* ModularMatricesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E422941F56800D3DDAD /* ModularMatricesData.swift */; };
+		637E7E452941F5AF00D3DDAD /* ModularMatrices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E442941F5AF00D3DDAD /* ModularMatrices.swift */; };
+		637E7E4729424BF100D3DDAD /* TransposeModular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E4629424BF100D3DDAD /* TransposeModular.swift */; };
+		637E7E4A29424DA700D3DDAD /* AdditionAndSubstractionModular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E4929424DA700D3DDAD /* AdditionAndSubstractionModular.swift */; };
+		637E7E4D29424F7900D3DDAD /* AdditionModularSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E4C29424F7900D3DDAD /* AdditionModularSheet.swift */; };
+		637E7E4F2942507400D3DDAD /* SubstractionModularSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E4E2942507400D3DDAD /* SubstractionModularSheet.swift */; };
+		637E7E512942517500D3DDAD /* MultiplyModular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E502942517500D3DDAD /* MultiplyModular.swift */; };
+		637E7E532942532100D3DDAD /* MultiplyModularSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E522942532100D3DDAD /* MultiplyModularSheet.swift */; };
+		637E7E55294255B900D3DDAD /* CommutatorModular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E54294255B900D3DDAD /* CommutatorModular.swift */; };
+		637E7E572942592400D3DDAD /* CommutatorModularSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E562942592400D3DDAD /* CommutatorModularSheet.swift */; };
+		637E7E5929425B7000D3DDAD /* ResultToMatricesModular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E5829425B7000D3DDAD /* ResultToMatricesModular.swift */; };
+		637E7E5B29425DF000D3DDAD /* InverzeModular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E5A29425DF000D3DDAD /* InverzeModular.swift */; };
+		637E7E5D2942794B00D3DDAD /* InverseModularSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E5C2942794B00D3DDAD /* InverseModularSheet.swift */; };
+		637E7E6029428AE300D3DDAD /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E5F29428AE300D3DDAD /* TutorialView.swift */; };
+		637E7E62294290E700D3DDAD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637E7E61294290E700D3DDAD /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637E7DF7293F7E8100D3DDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637E7DD9293F7E7F00D3DDAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637E7DE0293F7E7F00D3DDAD;
+			remoteInfo = "Maxtrix Calculator";
+		};
+		637E7E01293F7E8100D3DDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637E7DD9293F7E7F00D3DDAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637E7DE0293F7E7F00D3DDAD;
+			remoteInfo = "Maxtrix Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		637E7DE1293F7E7F00D3DDAD /* Maxtrix Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maxtrix Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		637E7DE4293F7E7F00D3DDAD /* Maxtrix_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maxtrix_CalculatorApp.swift; sourceTree = "<group>"; };
+		637E7DE6293F7E7F00D3DDAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		637E7DE8293F7E8000D3DDAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		637E7DEB293F7E8000D3DDAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		637E7DED293F7E8000D3DDAD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		637E7DF0293F7E8000D3DDAD /* Maxtrix_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Maxtrix_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		637E7DF6293F7E8100D3DDAD /* Maxtrix CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maxtrix CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		637E7DFA293F7E8100D3DDAD /* Maxtrix_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maxtrix_CalculatorTests.swift; sourceTree = "<group>"; };
+		637E7E00293F7E8100D3DDAD /* Maxtrix CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maxtrix CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		637E7E04293F7E8100D3DDAD /* Maxtrix_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maxtrix_CalculatorUITests.swift; sourceTree = "<group>"; };
+		637E7E06293F7E8100D3DDAD /* Maxtrix_CalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maxtrix_CalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		637E7E13293F80E000D3DDAD /* ArrayExtersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtersion.swift; sourceTree = "<group>"; };
+		637E7E15293F811200D3DDAD /* DesignData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignData.swift; sourceTree = "<group>"; };
+		637E7E17293F84DC00D3DDAD /* CommonMatrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMatrices.swift; sourceTree = "<group>"; };
+		637E7E19293F869B00D3DDAD /* CommonMatricesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMatricesData.swift; sourceTree = "<group>"; };
+		637E7E1B293F8B5700D3DDAD /* SliderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExtension.swift; sourceTree = "<group>"; };
+		637E7E1D293F9A2700D3DDAD /* Transpose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transpose.swift; sourceTree = "<group>"; };
+		637E7E1F293FA2F300D3DDAD /* AdditionAndSubstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionAndSubstraction.swift; sourceTree = "<group>"; };
+		637E7E21293FAD2700D3DDAD /* AdditionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionSheet.swift; sourceTree = "<group>"; };
+		637E7E23293FBC2600D3DDAD /* numberFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberFormatting.swift; sourceTree = "<group>"; };
+		637E7E25293FBC6300D3DDAD /* SubstractionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstractionSheet.swift; sourceTree = "<group>"; };
+		637E7E27293FBF2A00D3DDAD /* MultiplySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplySheet.swift; sourceTree = "<group>"; };
+		637E7E29293FBF7000D3DDAD /* MultiplyMatrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyMatrices.swift; sourceTree = "<group>"; };
+		637E7E2B2940BC7800D3DDAD /* InverzeMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InverzeMatrix.swift; sourceTree = "<group>"; };
+		637E7E2D2940D06B00D3DDAD /* InverzeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InverzeSheet.swift; sourceTree = "<group>"; };
+		637E7E322940F71C00D3DDAD /* FormatToFractions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatToFractions.swift; sourceTree = "<group>"; };
+		637E7E342941035600D3DDAD /* SorrySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorrySheet.swift; sourceTree = "<group>"; };
+		637E7E362941094100D3DDAD /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		637E7E3829411BD300D3DDAD /* ResultToMatrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultToMatrices.swift; sourceTree = "<group>"; };
+		637E7E3A29411ED400D3DDAD /* Commutator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commutator.swift; sourceTree = "<group>"; };
+		637E7E3C294121F500D3DDAD /* CommutatorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommutatorSheet.swift; sourceTree = "<group>"; };
+		637E7E422941F56800D3DDAD /* ModularMatricesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularMatricesData.swift; sourceTree = "<group>"; };
+		637E7E442941F5AF00D3DDAD /* ModularMatrices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularMatrices.swift; sourceTree = "<group>"; };
+		637E7E4629424BF100D3DDAD /* TransposeModular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransposeModular.swift; sourceTree = "<group>"; };
+		637E7E4929424DA700D3DDAD /* AdditionAndSubstractionModular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionAndSubstractionModular.swift; sourceTree = "<group>"; };
+		637E7E4C29424F7900D3DDAD /* AdditionModularSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionModularSheet.swift; sourceTree = "<group>"; };
+		637E7E4E2942507400D3DDAD /* SubstractionModularSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstractionModularSheet.swift; sourceTree = "<group>"; };
+		637E7E502942517500D3DDAD /* MultiplyModular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyModular.swift; sourceTree = "<group>"; };
+		637E7E522942532100D3DDAD /* MultiplyModularSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyModularSheet.swift; sourceTree = "<group>"; };
+		637E7E54294255B900D3DDAD /* CommutatorModular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommutatorModular.swift; sourceTree = "<group>"; };
+		637E7E562942592400D3DDAD /* CommutatorModularSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommutatorModularSheet.swift; sourceTree = "<group>"; };
+		637E7E5829425B7000D3DDAD /* ResultToMatricesModular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultToMatricesModular.swift; sourceTree = "<group>"; };
+		637E7E5A29425DF000D3DDAD /* InverzeModular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InverzeModular.swift; sourceTree = "<group>"; };
+		637E7E5C2942794B00D3DDAD /* InverseModularSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InverseModularSheet.swift; sourceTree = "<group>"; };
+		637E7E5F29428AE300D3DDAD /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		637E7E61294290E700D3DDAD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637E7DDE293F7E7F00D3DDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637E7DF3293F7E8100D3DDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637E7DFD293F7E8100D3DDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		637E7DD8293F7E7F00D3DDAD = {
+			isa = PBXGroup;
+			children = (
+				637E7DE3293F7E7F00D3DDAD /* Maxtrix Calculator */,
+				637E7DF9293F7E8100D3DDAD /* Maxtrix CalculatorTests */,
+				637E7E03293F7E8100D3DDAD /* Maxtrix CalculatorUITests */,
+				637E7DE2293F7E7F00D3DDAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		637E7DE2293F7E7F00D3DDAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637E7DE1293F7E7F00D3DDAD /* Maxtrix Calculator.app */,
+				637E7DF6293F7E8100D3DDAD /* Maxtrix CalculatorTests.xctest */,
+				637E7E00293F7E8100D3DDAD /* Maxtrix CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637E7DE3293F7E7F00D3DDAD /* Maxtrix Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				637E7E5E29428ACC00D3DDAD /* Tutorial */,
+				637E7E412941452200D3DDAD /* Theory */,
+				637E7E402941451000D3DDAD /* ModularMatrices */,
+				637E7E3F2941450000D3DDAD /* Settings */,
+				637E7E3E2941265100D3DDAD /* CommonMatrices */,
+				637E7DE4293F7E7F00D3DDAD /* Maxtrix_CalculatorApp.swift */,
+				637E7DE6293F7E7F00D3DDAD /* ContentView.swift */,
+				637E7E15293F811200D3DDAD /* DesignData.swift */,
+				637E7DE8293F7E8000D3DDAD /* Assets.xcassets */,
+				637E7DED293F7E8000D3DDAD /* Persistence.swift */,
+				637E7DEF293F7E8000D3DDAD /* Maxtrix_Calculator.xcdatamodeld */,
+				637E7DEA293F7E8000D3DDAD /* Preview Content */,
+			);
+			path = "Maxtrix Calculator";
+			sourceTree = "<group>";
+		};
+		637E7DEA293F7E8000D3DDAD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				637E7DEB293F7E8000D3DDAD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		637E7DF9293F7E8100D3DDAD /* Maxtrix CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				637E7DFA293F7E8100D3DDAD /* Maxtrix_CalculatorTests.swift */,
+			);
+			path = "Maxtrix CalculatorTests";
+			sourceTree = "<group>";
+		};
+		637E7E03293F7E8100D3DDAD /* Maxtrix CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				637E7E04293F7E8100D3DDAD /* Maxtrix_CalculatorUITests.swift */,
+				637E7E06293F7E8100D3DDAD /* Maxtrix_CalculatorUITestsLaunchTests.swift */,
+			);
+			path = "Maxtrix CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		637E7E2F2940D0D900D3DDAD /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				637E7E342941035600D3DDAD /* SorrySheet.swift */,
+				637E7E27293FBF2A00D3DDAD /* MultiplySheet.swift */,
+				637E7E21293FAD2700D3DDAD /* AdditionSheet.swift */,
+				637E7E2D2940D06B00D3DDAD /* InverzeSheet.swift */,
+				637E7E25293FBC6300D3DDAD /* SubstractionSheet.swift */,
+				637E7E3C294121F500D3DDAD /* CommutatorSheet.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		637E7E302940D10D00D3DDAD /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				637E7E29293FBF7000D3DDAD /* MultiplyMatrices.swift */,
+				637E7E1F293FA2F300D3DDAD /* AdditionAndSubstraction.swift */,
+				637E7E2B2940BC7800D3DDAD /* InverzeMatrix.swift */,
+				637E7E1D293F9A2700D3DDAD /* Transpose.swift */,
+				637E7E322940F71C00D3DDAD /* FormatToFractions.swift */,
+				637E7E362941094100D3DDAD /* NumberFormatter.swift */,
+				637E7E3829411BD300D3DDAD /* ResultToMatrices.swift */,
+				637E7E3A29411ED400D3DDAD /* Commutator.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		637E7E312940D13200D3DDAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				637E7E13293F80E000D3DDAD /* ArrayExtersion.swift */,
+				637E7E1B293F8B5700D3DDAD /* SliderExtension.swift */,
+				637E7E23293FBC2600D3DDAD /* numberFormatting.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		637E7E3E2941265100D3DDAD /* CommonMatrices */ = {
+			isa = PBXGroup;
+			children = (
+				637E7E17293F84DC00D3DDAD /* CommonMatrices.swift */,
+				637E7E19293F869B00D3DDAD /* CommonMatricesData.swift */,
+				637E7E312940D13200D3DDAD /* Extensions */,
+				637E7E302940D10D00D3DDAD /* Functions */,
+				637E7E2F2940D0D900D3DDAD /* Sheets */,
+			);
+			path = CommonMatrices;
+			sourceTree = "<group>";
+		};
+		637E7E3F2941450000D3DDAD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				637E7E61294290E700D3DDAD /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		637E7E402941451000D3DDAD /* ModularMatrices */ = {
+			isa = PBXGroup;
+			children = (
+				637E7E4B29424F3100D3DDAD /* ModularSheets */,
+				637E7E4829424BFA00D3DDAD /* FunctionsModular */,
+				637E7E422941F56800D3DDAD /* ModularMatricesData.swift */,
+				637E7E442941F5AF00D3DDAD /* ModularMatrices.swift */,
+			);
+			path = ModularMatrices;
+			sourceTree = "<group>";
+		};
+		637E7E412941452200D3DDAD /* Theory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Theory;
+			sourceTree = "<group>";
+		};
+		637E7E4829424BFA00D3DDAD /* FunctionsModular */ = {
+			isa = PBXGroup;
+			children = (
+				637E7E4629424BF100D3DDAD /* TransposeModular.swift */,
+				637E7E4929424DA700D3DDAD /* AdditionAndSubstractionModular.swift */,
+				637E7E502942517500D3DDAD /* MultiplyModular.swift */,
+				637E7E54294255B900D3DDAD /* CommutatorModular.swift */,
+				637E7E5829425B7000D3DDAD /* ResultToMatricesModular.swift */,
+				637E7E5A29425DF000D3DDAD /* InverzeModular.swift */,
+			);
+			path = FunctionsModular;
+			sourceTree = "<group>";
+		};
+		637E7E4B29424F3100D3DDAD /* ModularSheets */ = {
+			isa = PBXGroup;
+			children = (
+				637E7E4C29424F7900D3DDAD /* AdditionModularSheet.swift */,
+				637E7E4E2942507400D3DDAD /* SubstractionModularSheet.swift */,
+				637E7E522942532100D3DDAD /* MultiplyModularSheet.swift */,
+				637E7E562942592400D3DDAD /* CommutatorModularSheet.swift */,
+				637E7E5C2942794B00D3DDAD /* InverseModularSheet.swift */,
+			);
+			path = ModularSheets;
+			sourceTree = "<group>";
+		};
+		637E7E5E29428ACC00D3DDAD /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				637E7E5F29428AE300D3DDAD /* TutorialView.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637E7DE0293F7E7F00D3DDAD /* Maxtrix Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637E7E0A293F7E8100D3DDAD /* Build configuration list for PBXNativeTarget "Maxtrix Calculator" */;
+			buildPhases = (
+				637E7DDD293F7E7F00D3DDAD /* Sources */,
+				637E7DDE293F7E7F00D3DDAD /* Frameworks */,
+				637E7DDF293F7E7F00D3DDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Maxtrix Calculator";
+			productName = "Maxtrix Calculator";
+			productReference = 637E7DE1293F7E7F00D3DDAD /* Maxtrix Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		637E7DF5293F7E8100D3DDAD /* Maxtrix CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637E7E0D293F7E8100D3DDAD /* Build configuration list for PBXNativeTarget "Maxtrix CalculatorTests" */;
+			buildPhases = (
+				637E7DF2293F7E8100D3DDAD /* Sources */,
+				637E7DF3293F7E8100D3DDAD /* Frameworks */,
+				637E7DF4293F7E8100D3DDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637E7DF8293F7E8100D3DDAD /* PBXTargetDependency */,
+			);
+			name = "Maxtrix CalculatorTests";
+			productName = "Maxtrix CalculatorTests";
+			productReference = 637E7DF6293F7E8100D3DDAD /* Maxtrix CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		637E7DFF293F7E8100D3DDAD /* Maxtrix CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637E7E10293F7E8100D3DDAD /* Build configuration list for PBXNativeTarget "Maxtrix CalculatorUITests" */;
+			buildPhases = (
+				637E7DFC293F7E8100D3DDAD /* Sources */,
+				637E7DFD293F7E8100D3DDAD /* Frameworks */,
+				637E7DFE293F7E8100D3DDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637E7E02293F7E8100D3DDAD /* PBXTargetDependency */,
+			);
+			name = "Maxtrix CalculatorUITests";
+			productName = "Maxtrix CalculatorUITests";
+			productReference = 637E7E00293F7E8100D3DDAD /* Maxtrix CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637E7DD9293F7E7F00D3DDAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					637E7DE0293F7E7F00D3DDAD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					637E7DF5293F7E8100D3DDAD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 637E7DE0293F7E7F00D3DDAD;
+					};
+					637E7DFF293F7E8100D3DDAD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 637E7DE0293F7E7F00D3DDAD;
+					};
+				};
+			};
+			buildConfigurationList = 637E7DDC293F7E7F00D3DDAD /* Build configuration list for PBXProject "Maxtrix Calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637E7DD8293F7E7F00D3DDAD;
+			productRefGroup = 637E7DE2293F7E7F00D3DDAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637E7DE0293F7E7F00D3DDAD /* Maxtrix Calculator */,
+				637E7DF5293F7E8100D3DDAD /* Maxtrix CalculatorTests */,
+				637E7DFF293F7E8100D3DDAD /* Maxtrix CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637E7DDF293F7E7F00D3DDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637E7DEC293F7E8000D3DDAD /* Preview Assets.xcassets in Resources */,
+				637E7DE9293F7E8000D3DDAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637E7DF4293F7E8100D3DDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637E7DFE293F7E8100D3DDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637E7DDD293F7E7F00D3DDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637E7E1C293F8B5700D3DDAD /* SliderExtension.swift in Sources */,
+				637E7E20293FA2F300D3DDAD /* AdditionAndSubstraction.swift in Sources */,
+				637E7E532942532100D3DDAD /* MultiplyModularSheet.swift in Sources */,
+				637E7E432941F56800D3DDAD /* ModularMatricesData.swift in Sources */,
+				637E7E55294255B900D3DDAD /* CommutatorModular.swift in Sources */,
+				637E7E28293FBF2A00D3DDAD /* MultiplySheet.swift in Sources */,
+				637E7E5D2942794B00D3DDAD /* InverseModularSheet.swift in Sources */,
+				637E7E2E2940D06B00D3DDAD /* InverzeSheet.swift in Sources */,
+				637E7DEE293F7E8000D3DDAD /* Persistence.swift in Sources */,
+				637E7E452941F5AF00D3DDAD /* ModularMatrices.swift in Sources */,
+				637E7E3929411BD300D3DDAD /* ResultToMatrices.swift in Sources */,
+				637E7E14293F80E100D3DDAD /* ArrayExtersion.swift in Sources */,
+				637E7E62294290E700D3DDAD /* SettingsView.swift in Sources */,
+				637E7DF1293F7E8000D3DDAD /* Maxtrix_Calculator.xcdatamodeld in Sources */,
+				637E7E24293FBC2600D3DDAD /* numberFormatting.swift in Sources */,
+				637E7E4A29424DA700D3DDAD /* AdditionAndSubstractionModular.swift in Sources */,
+				637E7E5B29425DF000D3DDAD /* InverzeModular.swift in Sources */,
+				637E7E26293FBC6300D3DDAD /* SubstractionSheet.swift in Sources */,
+				637E7E4F2942507400D3DDAD /* SubstractionModularSheet.swift in Sources */,
+				637E7E3B29411ED400D3DDAD /* Commutator.swift in Sources */,
+				637E7DE7293F7E7F00D3DDAD /* ContentView.swift in Sources */,
+				637E7E4D29424F7900D3DDAD /* AdditionModularSheet.swift in Sources */,
+				637E7E3D294121F500D3DDAD /* CommutatorSheet.swift in Sources */,
+				637E7E2A293FBF7000D3DDAD /* MultiplyMatrices.swift in Sources */,
+				637E7DE5293F7E7F00D3DDAD /* Maxtrix_CalculatorApp.swift in Sources */,
+				637E7E6029428AE300D3DDAD /* TutorialView.swift in Sources */,
+				637E7E22293FAD2700D3DDAD /* AdditionSheet.swift in Sources */,
+				637E7E4729424BF100D3DDAD /* TransposeModular.swift in Sources */,
+				637E7E16293F811200D3DDAD /* DesignData.swift in Sources */,
+				637E7E572942592400D3DDAD /* CommutatorModularSheet.swift in Sources */,
+				637E7E1E293F9A2700D3DDAD /* Transpose.swift in Sources */,
+				637E7E332940F71C00D3DDAD /* FormatToFractions.swift in Sources */,
+				637E7E1A293F869B00D3DDAD /* CommonMatricesData.swift in Sources */,
+				637E7E512942517500D3DDAD /* MultiplyModular.swift in Sources */,
+				637E7E2C2940BC7800D3DDAD /* InverzeMatrix.swift in Sources */,
+				637E7E18293F84DC00D3DDAD /* CommonMatrices.swift in Sources */,
+				637E7E5929425B7000D3DDAD /* ResultToMatricesModular.swift in Sources */,
+				637E7E372941094100D3DDAD /* NumberFormatter.swift in Sources */,
+				637E7E352941035600D3DDAD /* SorrySheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637E7DF2293F7E8100D3DDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637E7DFB293F7E8100D3DDAD /* Maxtrix_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637E7DFC293F7E8100D3DDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637E7E07293F7E8100D3DDAD /* Maxtrix_CalculatorUITestsLaunchTests.swift in Sources */,
+				637E7E05293F7E8100D3DDAD /* Maxtrix_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		637E7DF8293F7E8100D3DDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637E7DE0293F7E7F00D3DDAD /* Maxtrix Calculator */;
+			targetProxy = 637E7DF7293F7E8100D3DDAD /* PBXContainerItemProxy */;
+		};
+		637E7E02293F7E8100D3DDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637E7DE0293F7E7F00D3DDAD /* Maxtrix Calculator */;
+			targetProxy = 637E7E01293F7E8100D3DDAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		637E7E08293F7E8100D3DDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		637E7E09293F7E8100D3DDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637E7E0B293F7E8100D3DDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Maxtrix Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 55JW98DFNK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.st1tchqwerty.Maxtrix-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		637E7E0C293F7E8100D3DDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Maxtrix Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 55JW98DFNK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.st1tchqwerty.Maxtrix-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		637E7E0E293F7E8100D3DDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW98DFNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.st1tchqwerty.Maxtrix-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maxtrix Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Maxtrix Calculator";
+			};
+			name = Debug;
+		};
+		637E7E0F293F7E8100D3DDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW98DFNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.st1tchqwerty.Maxtrix-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maxtrix Calculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Maxtrix Calculator";
+			};
+			name = Release;
+		};
+		637E7E11293F7E8100D3DDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW98DFNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.st1tchqwerty.Maxtrix-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Maxtrix Calculator";
+			};
+			name = Debug;
+		};
+		637E7E12293F7E8100D3DDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW98DFNK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.st1tchqwerty.Maxtrix-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Maxtrix Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637E7DDC293F7E7F00D3DDAD /* Build configuration list for PBXProject "Maxtrix Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637E7E08293F7E8100D3DDAD /* Debug */,
+				637E7E09293F7E8100D3DDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637E7E0A293F7E8100D3DDAD /* Build configuration list for PBXNativeTarget "Maxtrix Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637E7E0B293F7E8100D3DDAD /* Debug */,
+				637E7E0C293F7E8100D3DDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637E7E0D293F7E8100D3DDAD /* Build configuration list for PBXNativeTarget "Maxtrix CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637E7E0E293F7E8100D3DDAD /* Debug */,
+				637E7E0F293F7E8100D3DDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637E7E10293F7E8100D3DDAD /* Build configuration list for PBXNativeTarget "Maxtrix CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637E7E11293F7E8100D3DDAD /* Debug */,
+				637E7E12293F7E8100D3DDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		637E7DEF293F7E8000D3DDAD /* Maxtrix_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				637E7DF0293F7E8000D3DDAD /* Maxtrix_Calculator.xcdatamodel */,
+			);
+			currentVersion = 637E7DF0293F7E8000D3DDAD /* Maxtrix_Calculator.xcdatamodel */;
+			path = Maxtrix_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 637E7DD9293F7E7F00D3DDAD /* Project object */;
+}
